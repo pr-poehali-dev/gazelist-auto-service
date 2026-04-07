@@ -118,11 +118,11 @@ export default function Index() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0d0d0d]/90 backdrop-blur-sm border-b border-[#1e1e1e]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 bg-amber-500 flex items-center justify-center">
+            <div className="w-8 h-8 bg-blue-500 flex items-center justify-center">
               <Icon name="Wrench" size={16} className="text-black" />
             </div>
             <span className="font-bold text-xl tracking-widest uppercase" style={{ fontFamily: 'Oswald, sans-serif' }}>
-              ГАЗЕ<span className="text-amber-500">ЛИСТ</span>
+              ГАЗЕ<span className="text-blue-500">ЛИСТ</span>
             </span>
           </div>
 
@@ -165,13 +165,13 @@ export default function Index() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0d0d0d] via-[#0d0d0d]/85 to-[#0d0d0d]/40" />
         <div className="absolute inset-0 stripe-bg" />
-        <div className="absolute top-0 right-0 w-1 h-full bg-gradient-to-b from-transparent via-amber-500 to-transparent opacity-40" />
+        <div className="absolute top-0 right-0 w-1 h-full bg-gradient-to-b from-transparent via-blue-500 to-transparent opacity-40" />
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-20">
           <div className="max-w-2xl">
             <div className="flex items-center gap-3 mb-6 animate-fade-in">
-              <div className="w-12 h-[2px] bg-amber-500" />
-              <span className="text-amber-500 text-xs tracking-[0.3em] uppercase font-medium" style={{ fontFamily: 'Oswald, sans-serif' }}>
+              <div className="w-12 h-[2px] bg-blue-500" />
+              <span className="text-blue-500 text-xs tracking-[0.3em] uppercase font-medium" style={{ fontFamily: 'Oswald, sans-serif' }}>
                 Профессиональный ремонт
               </span>
             </div>
@@ -179,7 +179,7 @@ export default function Index() {
             <h1 className="text-5xl sm:text-7xl font-bold leading-none mb-6 animate-fade-in-up delay-100"
               style={{ fontFamily: 'Oswald, sans-serif', letterSpacing: '0.03em' }}>
               РЕМОНТ<br />
-              <span className="text-amber-500">АВТОМОБИЛЕЙ</span><br />
+              <span className="text-blue-500">АВТОМОБИЛЕЙ</span><br />
               <span className="text-[#555] text-3xl sm:text-4xl">ЛЮБОЙ СЛОЖНОСТИ</span>
             </h1>
 
@@ -198,8 +198,8 @@ export default function Index() {
             </div>
 
             <div className="flex items-center gap-3 mt-10 animate-fade-in-up delay-400">
-              <div className="w-10 h-10 border border-amber-500/40 flex items-center justify-center">
-                <Icon name="Phone" size={18} className="text-amber-500" />
+              <div className="w-10 h-10 border border-blue-500/40 flex items-center justify-center">
+                <Icon name="Phone" size={18} className="text-blue-500" />
               </div>
               <div>
                 <div className="text-[#666] text-xs uppercase tracking-widest">Звоните нам</div>
@@ -227,8 +227,8 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-8 h-[2px] bg-amber-500" />
-                <span className="text-amber-500 text-xs tracking-[0.3em] uppercase" style={{ fontFamily: 'Oswald, sans-serif' }}>О нас</span>
+                <div className="w-8 h-[2px] bg-blue-500" />
+                <span className="text-blue-500 text-xs tracking-[0.3em] uppercase" style={{ fontFamily: 'Oswald, sans-serif' }}>О нас</span>
               </div>
               <h2 className="section-title text-4xl sm:text-5xl text-white mb-8">
                 НАДЁЖНЫЙ<br />АВТОСЕРВИС
@@ -247,7 +247,7 @@ export default function Index() {
                   { icon: "Users", text: "Опытные мастера" },
                 ].map((item) => (
                   <div key={item.text} className="flex items-center gap-3">
-                    <Icon name={item.icon} fallback="Check" size={18} className="text-amber-500 shrink-0" />
+                    <Icon name={item.icon} fallback="Check" size={18} className="text-blue-500 shrink-0" />
                     <span className="text-[#ccc] text-sm">{item.text}</span>
                   </div>
                 ))}
@@ -257,11 +257,11 @@ export default function Index() {
             <div className="relative">
               <div className="relative overflow-hidden" style={{ clipPath: 'polygon(0 0, 95% 0, 100% 5%, 100% 100%, 5% 100%, 0 95%)' }}>
                 <img src={GALLERY_IMAGES[1].src} alt="Автосервис" className="w-full h-80 object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-tr from-amber-500/10 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/10 to-transparent" />
               </div>
-              <div className="absolute -top-4 -right-4 w-24 h-24 border-t-2 border-r-2 border-amber-500/40" />
-              <div className="absolute -bottom-4 -left-4 w-24 h-24 border-b-2 border-l-2 border-amber-500/40" />
-              <div className="absolute -bottom-6 right-8 bg-amber-500 text-black px-5 py-3" style={{ fontFamily: 'Oswald, sans-serif' }}>
+              <div className="absolute -top-4 -right-4 w-24 h-24 border-t-2 border-r-2 border-blue-500/40" />
+              <div className="absolute -bottom-4 -left-4 w-24 h-24 border-b-2 border-l-2 border-blue-500/40" />
+              <div className="absolute -bottom-6 right-8 bg-blue-500 text-white px-5 py-3" style={{ fontFamily: 'Oswald, sans-serif' }}>
                 <div className="text-2xl font-bold">12</div>
                 <div className="text-xs uppercase tracking-wider">лет работы</div>
               </div>
@@ -275,12 +275,12 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
             <div className="flex items-center justify-center gap-3 mb-6">
-              <div className="w-12 h-[2px] bg-amber-500" />
-              <span className="text-amber-500 text-xs tracking-[0.3em] uppercase" style={{ fontFamily: 'Oswald, sans-serif' }}>Что мы делаем</span>
-              <div className="w-12 h-[2px] bg-amber-500" />
+              <div className="w-12 h-[2px] bg-blue-500" />
+              <span className="text-blue-500 text-xs tracking-[0.3em] uppercase" style={{ fontFamily: 'Oswald, sans-serif' }}>Что мы делаем</span>
+              <div className="w-12 h-[2px] bg-blue-500" />
             </div>
             <h2 className="text-4xl sm:text-5xl font-bold" style={{ fontFamily: 'Oswald, sans-serif', letterSpacing: '0.05em' }}>
-              НАШИ <span className="text-amber-500">УСЛУГИ</span>
+              НАШИ <span className="text-blue-500">УСЛУГИ</span>
             </h2>
           </div>
 
@@ -288,10 +288,10 @@ export default function Index() {
             {SERVICES.map((service, i) => (
               <div key={service.title} className="service-card bg-[#111] p-6 group">
                 <div className="flex items-start justify-between mb-4">
-                  <div className="w-12 h-12 bg-amber-500/10 border border-amber-500/20 flex items-center justify-center group-hover:bg-amber-500/20 transition-colors">
-                    <Icon name={service.icon} fallback="Wrench" size={22} className="text-amber-500" />
+                  <div className="w-12 h-12 bg-blue-500/10 border border-blue-500/20 flex items-center justify-center group-hover:bg-blue-500/20 transition-colors">
+                    <Icon name={service.icon} fallback="Wrench" size={22} className="text-blue-500" />
                   </div>
-                  <span className="text-amber-500 text-sm font-semibold" style={{ fontFamily: 'Oswald, sans-serif' }}>
+                  <span className="text-blue-500 text-sm font-semibold" style={{ fontFamily: 'Oswald, sans-serif' }}>
                     {service.price}
                   </span>
                 </div>
@@ -299,7 +299,7 @@ export default function Index() {
                   {service.title}
                 </h3>
                 <p className="text-[#777] text-sm leading-relaxed">{service.desc}</p>
-                <div className="mt-4 flex items-center gap-2 text-amber-500 opacity-0 group-hover:opacity-80 transition-all text-sm">
+                <div className="mt-4 flex items-center gap-2 text-blue-500 opacity-0 group-hover:opacity-80 transition-all text-sm">
                   <span style={{ fontFamily: 'Oswald, sans-serif', letterSpacing: '0.1em' }}>ПОДРОБНЕЕ</span>
                   <Icon name="ArrowRight" size={14} />
                 </div>
@@ -314,12 +314,12 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
             <div className="flex items-center justify-center gap-3 mb-6">
-              <div className="w-12 h-[2px] bg-amber-500" />
-              <span className="text-amber-500 text-xs tracking-[0.3em] uppercase" style={{ fontFamily: 'Oswald, sans-serif' }}>Наши работы</span>
-              <div className="w-12 h-[2px] bg-amber-500" />
+              <div className="w-12 h-[2px] bg-blue-500" />
+              <span className="text-blue-500 text-xs tracking-[0.3em] uppercase" style={{ fontFamily: 'Oswald, sans-serif' }}>Наши работы</span>
+              <div className="w-12 h-[2px] bg-blue-500" />
             </div>
             <h2 className="text-4xl sm:text-5xl font-bold" style={{ fontFamily: 'Oswald, sans-serif', letterSpacing: '0.05em' }}>
-              <span className="text-amber-500">ГАЛЕРЕЯ</span>
+              <span className="text-blue-500">ГАЛЕРЕЯ</span>
             </h2>
           </div>
 
@@ -347,12 +347,12 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
             <div className="flex items-center justify-center gap-3 mb-6">
-              <div className="w-12 h-[2px] bg-amber-500" />
-              <span className="text-amber-500 text-xs tracking-[0.3em] uppercase" style={{ fontFamily: 'Oswald, sans-serif' }}>Клиенты о нас</span>
-              <div className="w-12 h-[2px] bg-amber-500" />
+              <div className="w-12 h-[2px] bg-blue-500" />
+              <span className="text-blue-500 text-xs tracking-[0.3em] uppercase" style={{ fontFamily: 'Oswald, sans-serif' }}>Клиенты о нас</span>
+              <div className="w-12 h-[2px] bg-blue-500" />
             </div>
             <h2 className="text-4xl sm:text-5xl font-bold" style={{ fontFamily: 'Oswald, sans-serif', letterSpacing: '0.05em' }}>
-              ОТЗЫВЫ <span className="text-amber-500">КЛИЕНТОВ</span>
+              ОТЗЫВЫ <span className="text-blue-500">КЛИЕНТОВ</span>
             </h2>
           </div>
 
@@ -361,13 +361,13 @@ export default function Index() {
               <div key={i} className="review-card p-6">
                 <div className="flex items-center gap-1 mb-4">
                   {Array.from({ length: review.rating }).map((_, j) => (
-                    <Icon key={j} name="Star" size={16} className="text-amber-500" />
+                    <Icon key={j} name="Star" size={16} className="text-blue-500" />
                   ))}
                 </div>
                 <p className="text-[#bbb] leading-relaxed mb-5 italic">"{review.text}"</p>
                 <div className="flex items-center justify-between pt-4 border-t border-[#222]">
                   <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 bg-amber-500/20 flex items-center justify-center text-amber-500 font-bold"
+                    <div className="w-10 h-10 bg-blue-500/20 flex items-center justify-center text-blue-500 font-bold"
                       style={{ fontFamily: 'Oswald, sans-serif' }}>
                       {review.name[0]}
                     </div>
@@ -389,9 +389,9 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="text-center mb-16">
             <div className="flex items-center justify-center gap-3 mb-6">
-              <div className="w-12 h-[2px] bg-amber-500" />
-              <span className="text-amber-500 text-xs tracking-[0.3em] uppercase" style={{ fontFamily: 'Oswald, sans-serif' }}>Связаться с нами</span>
-              <div className="w-12 h-[2px] bg-amber-500" />
+              <div className="w-12 h-[2px] bg-blue-500" />
+              <span className="text-blue-500 text-xs tracking-[0.3em] uppercase" style={{ fontFamily: 'Oswald, sans-serif' }}>Связаться с нами</span>
+              <div className="w-12 h-[2px] bg-blue-500" />
             </div>
             <h2 className="text-4xl sm:text-5xl font-bold" style={{ fontFamily: 'Oswald, sans-serif', letterSpacing: '0.05em' }}>
               КОНТАКТЫ
@@ -406,9 +406,9 @@ export default function Index() {
                 { icon: "Clock", label: "Режим работы", value: "Пн–Вс: 8:00 – 21:00" },
                 { icon: "Mail", label: "Email", value: "info@avtomastero.ru" },
               ].map((contact) => (
-                <div key={contact.label} className="flex items-start gap-4 p-5 bg-[#111] border border-[#1e1e1e] hover:border-amber-500/30 transition-colors">
-                  <div className="w-10 h-10 bg-amber-500/10 flex items-center justify-center shrink-0">
-                    <Icon name={contact.icon} fallback="Info" size={18} className="text-amber-500" />
+                <div key={contact.label} className="flex items-start gap-4 p-5 bg-[#111] border border-[#1e1e1e] hover:border-blue-500/30 transition-colors">
+                  <div className="w-10 h-10 bg-blue-500/10 flex items-center justify-center shrink-0">
+                    <Icon name={contact.icon} fallback="Info" size={18} className="text-blue-500" />
                   </div>
                   <div>
                     <div className="text-[#666] text-xs uppercase tracking-wider mb-1">{contact.label}</div>
@@ -420,7 +420,7 @@ export default function Index() {
 
             <div className="bg-[#111] border border-[#1e1e1e] p-8">
               <h3 className="text-2xl font-bold mb-6 uppercase" style={{ fontFamily: 'Oswald, sans-serif' }}>
-                Записаться на <span className="text-amber-500">ремонт</span>
+                Записаться на <span className="text-blue-500">ремонт</span>
               </h3>
               <div className="space-y-4">
                 <div>
@@ -428,7 +428,7 @@ export default function Index() {
                   <input
                     type="text"
                     placeholder="Введите имя"
-                    className="w-full bg-[#0d0d0d] border border-[#2a2a2a] text-white px-4 py-3 text-sm focus:border-amber-500/60 focus:outline-none transition-colors placeholder-[#444]"
+                    className="w-full bg-[#0d0d0d] border border-[#2a2a2a] text-white px-4 py-3 text-sm focus:border-blue-500/60 focus:outline-none transition-colors placeholder-[#444]"
                   />
                 </div>
                 <div>
@@ -436,7 +436,7 @@ export default function Index() {
                   <input
                     type="tel"
                     placeholder="+7 (___) ___-__-__"
-                    className="w-full bg-[#0d0d0d] border border-[#2a2a2a] text-white px-4 py-3 text-sm focus:border-amber-500/60 focus:outline-none transition-colors placeholder-[#444]"
+                    className="w-full bg-[#0d0d0d] border border-[#2a2a2a] text-white px-4 py-3 text-sm focus:border-blue-500/60 focus:outline-none transition-colors placeholder-[#444]"
                   />
                 </div>
                 <div>
@@ -444,7 +444,7 @@ export default function Index() {
                   <input
                     type="text"
                     placeholder="Например: Toyota Camry 2019"
-                    className="w-full bg-[#0d0d0d] border border-[#2a2a2a] text-white px-4 py-3 text-sm focus:border-amber-500/60 focus:outline-none transition-colors placeholder-[#444]"
+                    className="w-full bg-[#0d0d0d] border border-[#2a2a2a] text-white px-4 py-3 text-sm focus:border-blue-500/60 focus:outline-none transition-colors placeholder-[#444]"
                   />
                 </div>
                 <div>
@@ -452,7 +452,7 @@ export default function Index() {
                   <textarea
                     rows={3}
                     placeholder="Что случилось с автомобилем?"
-                    className="w-full bg-[#0d0d0d] border border-[#2a2a2a] text-white px-4 py-3 text-sm focus:border-amber-500/60 focus:outline-none transition-colors placeholder-[#444] resize-none"
+                    className="w-full bg-[#0d0d0d] border border-[#2a2a2a] text-white px-4 py-3 text-sm focus:border-blue-500/60 focus:outline-none transition-colors placeholder-[#444] resize-none"
                   />
                 </div>
                 <button className="btn-amber w-full py-4 text-sm mt-2">
@@ -469,15 +469,15 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-3">
-              <div className="w-6 h-6 bg-amber-500 flex items-center justify-center">
+              <div className="w-6 h-6 bg-blue-500 flex items-center justify-center">
                 <Icon name="Wrench" size={12} className="text-black" />
               </div>
               <span className="font-bold uppercase tracking-widest text-sm" style={{ fontFamily: 'Oswald, sans-serif' }}>
-                ГАЗЕ<span className="text-amber-500">ЛИСТ</span>
+                ГАЗЕ<span className="text-blue-500">ЛИСТ</span>
               </span>
             </div>
             <div className="text-[#444] text-xs">© 2026 АвтоМастер. Все права защищены.</div>
-            <button onClick={() => scrollTo("#home")} className="text-[#555] hover:text-amber-500 transition-colors">
+            <button onClick={() => scrollTo("#home")} className="text-[#555] hover:text-blue-500 transition-colors">
               <Icon name="ArrowUp" size={18} />
             </button>
           </div>

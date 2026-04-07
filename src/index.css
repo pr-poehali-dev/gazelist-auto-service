@@ -13,7 +13,7 @@
     --popover: 20 10% 9%;
     --popover-foreground: 40 20% 92%;
 
-    --primary: 35 90% 52%;
+    --primary: 217 91% 60%;
     --primary-foreground: 20 10% 6%;
 
     --secondary: 20 10% 14%;
@@ -22,7 +22,7 @@
     --muted: 20 10% 14%;
     --muted-foreground: 40 10% 55%;
 
-    --accent: 35 90% 52%;
+    --accent: 217 91% 60%;
     --accent-foreground: 20 10% 6%;
 
     --destructive: 0 84.2% 60.2%;
@@ -30,14 +30,14 @@
 
     --border: 20 10% 18%;
     --input: 20 10% 14%;
-    --ring: 35 90% 52%;
+    --ring: 217 91% 60%;
 
     --radius: 2px;
 
     /* Custom vars */
     --steel: #2a2a2a;
-    --rust: #c8510a;
-    --amber: #f59e0b;
+    --rust: #1d4ed8;
+    --amber: #3b82f6;
     --chrome: #8a8a8a;
     --iron: #1a1a1a;
   }
@@ -178,8 +178,8 @@ body::before {
     45deg,
     transparent,
     transparent 10px,
-    rgba(245, 158, 11, 0.04) 10px,
-    rgba(245, 158, 11, 0.04) 20px
+    rgba(59, 130, 246, 0.04) 10px,
+    rgba(59, 130, 246, 0.04) 20px
   );
 }
 
@@ -196,10 +196,10 @@ body::before {
     linear-gradient(135deg, #555 0%, #222 50%, #555 100%) border-box;
 }
 
-/* Amber glow btn */
+/* Blue glow btn */
 .btn-amber {
   background: var(--amber);
-  color: #0d0d0d;
+  color: #ffffff;
   font-family: "Oswald", sans-serif;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -211,7 +211,7 @@ body::before {
 .btn-amber:hover {
   background: transparent;
   color: var(--amber);
-  box-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
 }
 
 .btn-outline-amber {
@@ -227,8 +227,8 @@ body::before {
 
 .btn-outline-amber:hover {
   background: var(--amber);
-  color: #0d0d0d;
-  box-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
+  color: #ffffff;
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
 }
 
 /* Nav link hover */
