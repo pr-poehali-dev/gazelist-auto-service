@@ -122,7 +122,7 @@ export default function Index() {
               <Icon name="Wrench" size={16} className="text-black" />
             </div>
             <span className="font-bold text-xl tracking-widest uppercase" style={{ fontFamily: 'Oswald, sans-serif' }}>
-              АВТО<span className="text-amber-500">МАСТЕР</span>
+              ГАЗЕ<span className="text-amber-500">ЛИСТ</span>
             </span>
           </div>
 
@@ -473,7 +473,7 @@ export default function Index() {
                 <Icon name="Wrench" size={12} className="text-black" />
               </div>
               <span className="font-bold uppercase tracking-widest text-sm" style={{ fontFamily: 'Oswald, sans-serif' }}>
-                АВТО<span className="text-amber-500">МАСТЕР</span>
+                ГАЗЕ<span className="text-amber-500">ЛИСТ</span>
               </span>
             </div>
             <div className="text-[#444] text-xs">© 2026 АвтоМастер. Все права защищены.</div>
