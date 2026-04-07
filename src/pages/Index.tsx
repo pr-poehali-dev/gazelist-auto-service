@@ -158,16 +158,13 @@ export default function Index() {
 
       {/* HERO */}
       <section id="home" className="relative min-h-screen flex items-center overflow-hidden pt-16">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${GALLERY_IMAGES[0].src})` }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0d0d0d] via-[#0d0d0d]/85 to-[#0d0d0d]/40" />
+        <div className="absolute inset-0 bg-[#0d0d0d]" />
         <div className="absolute inset-0 stripe-bg" />
         <div className="absolute top-0 right-0 w-1 h-full bg-gradient-to-b from-transparent via-blue-500 to-transparent opacity-40" />
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-20">
-          <div className="max-w-2xl">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-20 w-full">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div>
             <div className="flex items-center gap-3 mb-6 animate-fade-in">
               <div className="w-12 h-[2px] bg-blue-500" />
               <span className="text-blue-500 text-xs tracking-[0.3em] uppercase font-medium" style={{ fontFamily: 'Oswald, sans-serif' }}>
@@ -175,11 +172,12 @@ export default function Index() {
               </span>
             </div>
 
-            <h1 className="text-5xl sm:text-7xl font-bold leading-none mb-6 animate-fade-in-up delay-100"
+            <h1 className="text-5xl sm:text-6xl font-bold leading-none mb-6 animate-fade-in-up delay-100"
               style={{ fontFamily: 'Oswald, sans-serif', letterSpacing: '0.03em' }}>
               РЕМОНТ<br />
               <span className="text-blue-500">АВТОМОБИЛЕЙ</span><br />
-              <span className="text-[#555] text-3xl sm:text-4xl">ЛЮБОЙ СЛОЖНОСТИ</span>
+              <span className="text-white">ГАЗЕЛЬ</span><br />
+              <span className="text-[#555] text-2xl sm:text-3xl">ЛЮБОЙ СЛОЖНОСТИ</span>
             </h1>
 
             <p className="text-[#999] text-lg mb-8 leading-relaxed animate-fade-in-up delay-200">
@@ -204,6 +202,17 @@ export default function Index() {
                 <div className="text-[#666] text-xs uppercase tracking-widest">Звоните нам</div>
                 <div className="text-white font-bold text-lg" style={{ fontFamily: 'Oswald, sans-serif' }}>+7 (999) 123-45-67</div>
               </div>
+            </div>
+            </div>
+
+            {/* Hero image */}
+            <div className="hidden md:flex items-center justify-center animate-fade-in delay-300">
+              <img
+                src="https://cdn.poehali.dev/projects/9e597dc3-54ef-4282-bb5c-1e2a188625b1/bucket/bcb155e1-1f75-4aa7-8298-0f52d96cc32d.jpg"
+                alt="Газель Next — ремонт"
+                className="w-full max-w-xl object-contain drop-shadow-2xl"
+                style={{ filter: 'drop-shadow(0 0 40px rgba(59,130,246,0.15))' }}
+              />
             </div>
           </div>
         </div>
