@@ -200,7 +200,7 @@ export default function Index() {
               </div>
               <div>
                 <div className="text-[#666] text-xs uppercase tracking-widest">Звоните нам</div>
-                <div className="text-white font-bold text-lg" style={{ fontFamily: 'Oswald, sans-serif' }}>+7 (999) 123-45-67</div>
+                <div className="text-white font-bold text-lg" style={{ fontFamily: 'Oswald, sans-serif' }}>+7 913-478-08-08</div>
               </div>
             </div>
             </div>
@@ -409,10 +409,10 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-12">
             <div className="space-y-4">
               {[
-                { icon: "Phone", label: "Телефон", value: "+7 (999) 123-45-67" },
-                { icon: "MapPin", label: "Адрес", value: "г. Москва, ул. Промышленная, 42" },
-                { icon: "Clock", label: "Режим работы", value: "Пн–Вс: 8:00 – 21:00" },
-                { icon: "Mail", label: "Email", value: "info@avtomastero.ru" },
+                { icon: "Phone", label: "Телефон", value: "+7 913-478-08-08" },
+                { icon: "MapPin", label: "Адрес", value: "г. Новосибирск, Северный проезд, 24" },
+                { icon: "Clock", label: "Режим работы", value: "Пн–Пт: 09:00 – 19:00" },
+                { icon: "Mail", label: "Email", value: "gazelist0808@mail.ru" },
               ].map((contact) => (
                 <div key={contact.label} className="flex items-start gap-4 p-5 bg-[#111] border border-[#1e1e1e] hover:border-blue-500/30 transition-colors">
                   <div className="w-10 h-10 bg-blue-500/10 flex items-center justify-center shrink-0">
